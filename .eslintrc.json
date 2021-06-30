@@ -24,7 +24,13 @@
     ],
     "rules": {
         "no-underscore-dangle": [0],
-        "comma-dangle": ["error", "never"],
+        "comma-dangle": ["error", {
+            "arrays": "only-multiline",
+            "objects": "only-multiline",
+            "imports": "never",
+            "exports": "never",
+            "functions": "never"
+        }],        
         "arrow-body-style": 0,
         "quotes": [2, "double"],
         "reac/jsx-props-no-spreading": [0],

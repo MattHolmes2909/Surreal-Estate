@@ -1,0 +1,54 @@
+.AddProperty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.AddProperty form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.AddProperty label {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.form-title {
+    border-radius: 6px;
+    width: 200px
+}
+.form-type {
+    border-radius: 6px;
+    width: 200px
+}
+
+.bed-forms {
+    border-radius: 6px;
+    width: 200px  
+}
+
+.bath-forms {
+    border-radius: 6px;
+    width: 200px  
+}
+
+.price {
+    border-radius: 6px;
+    width: 200px
+}
+
+.form-city {
+    border-radius: 6px;
+    width: 200px
+}
+.email {
+    border-radius: 6px;
+    width: 200px
+}
