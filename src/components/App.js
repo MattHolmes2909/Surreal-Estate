@@ -1,7 +1,7 @@
 import React from "react";
-import '../styles/App.css';
-import NavBar from "./NavBar";
+import "../styles/App.css";
 import { Route, Switch } from "react-router-dom";
+import NavBar from "./NavBar";
 import Properties from "./Properties";
 import AddProperty from "./AddProperty";
 
@@ -15,6 +15,6 @@ function App() {
       </Switch>
     </div>
   );
-};
+}
 
 export default App;
