@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Surreal Estate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project creates a property search engine where users can find properties based on location, type of property, price, etc.
+
+## This project utilises:
+
+* HTTP requests
+* API interaction
+* Single Page Applicatio (SPA)
+* OAuth
+
+## This project was built using:
+
+* HTML
+* CSS
+* Javascript
+* React
+* Node.js
+
+## Test frameworks used:
+
+* Jest
+* React Testing Library
+
 
 ## Available Scripts
 
